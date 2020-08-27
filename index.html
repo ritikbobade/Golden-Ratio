@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Comfortaa&family=Montserrat:ital@1&family=Overpass:ital,wght@1,600&display=swap"
+    rel="stylesheet">
+  <title>HackerRank</title>
+</head>
+
+<body>
+
+  
+
+   <!-- ======= Header ======= -->
+   <header id="header" class="fixed-top " style="background: black; opacity: 0.4;">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">Golden Ratio<span></span></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#head1">Various Aspects of Golden Ratio</a></li>
+          <li><a href="#history">History Of Golden Ratio</a></li>
+          <li><a href="#head2">Few Examples of Golden Ratio</a></li>
+          <li><a href="#head3">Uses of Golden Ratio</a></li>
+          <li class="example34"><a href="./example.html">Examples</a>
+            <!-- <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="drop-down"><a href="#">Deep Drop Down</a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul> -->
+          </li>
+          <!-- <li><a href="#contact">Contact</a></li> -->
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+      <!-- <a href="#about" class="get-started-btn scrollto">Get Started</a> -->
+
+    </div>
+  </header><!-- End Header -->
+  <main role="main">
+
+    <div class="main">
+      <h1 id="head">Golden Ratio</h1>
+
+
+      <!-- Definations -->
+      <div class="definations">
+        <p id="def1"> The golden ratio is also called the golden mean or golden section (Latin: sectio aurea). Other
+          names include extreme and mean ratio, medial section, divine proportion (Latin: proportio divina), divine
+          section (Latin: sectio divina), golden proportion, golden cut, and golden number.</p>
+      </div>
+
+      <h2 id="head1">Various Aspects of Golden Ratio</h2>
+
+      <div class="container1 ">
+        <p class="def2">
+        <ul id="h1">1) Numeric definition</ul><br>
+        <li>Here is a 'Fibonacci series'.<br>
+          0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ..<br>
+          If we take the ratio of two successive numbers in this series and divide each by the
+          number before it, we will find the following series of numbers.<br>
+          1/1 = 1<br>
+          2/1 = 2<br>
+          3/2 = 1.5<br>
+          5/3 = 1.6666...<br>
+          8/5 = 1.6<br>
+          13/8 = 1.625<br>
+          21/13 = 1.61538...<br>
+          34/21 = 1.61904...<br>
+          The ratio seems to be settling down to a particular value, which we call the golden
+          ratio(Phi=1.618..).</li><br>
+
+        <ul> 2) Geometric definition</ul><br>
+        <li> can notice if we have a 1 by 1 square and add a square with side lengths equal<br>
+          to the length longer rectangle side, then what remains is another golden rectangle.<br>
+          This could go on forever. We can get bigger and bigger golden rectangles, adding<br>
+          off these big squares.<br>
+          Step 1 Start with a square 1 by 1<br>
+          Step 2 Find the longer sideV
+          Step 3 Add another square of that side to whole thingV
+          Here is the list we can get adding the square;<br>
+          1 x 1, 2 x 1, 3 x 2, 5 x 3, 8 x 5, 13 x 8, 21 x 13, 34 x 21.<br>
+          with each addition coming ever closer to multiplying by Phi.<br>
+          start 1 by 1, add 1 by 1 => Now, it is 2 by 1, add 2 by 2<br>
+          Now, it is 3 by 2, add 3 by 3 => Now, it is 5 by 3, add 5 by 5<br>
+          Now, it is 8 by 5.</li><br>
+
+
+
+        <ul>3) Algebraic and Geometric definition</ul><br>
+        <li>We can realize that Phi + 1 = Phi * Phi.
+          Start with a golden rectangle with a short side one unit long.
+          Since the long side of a golden rectangle equals the short side multiplied by Phi,
+          the long side of the new rectangle is 1*Phi = Phi.
+          If we swing the long side to make a new golden rectangle, the short side of the new
+          rectangle is Phi and the long side is Phi * Phi.
+          We also know from simple geometry that the new long side equals the sum of the
+          two sides of the original rectangle, or Phi + 1. (figure in page4)
+          Since these two expressions describe the same thing, they are equivalent, and so
+          Phi + 1 = Phi * Phi.</li>
+        </p>
+      </div>
+    </div>
+
+    <!-- History -->
+
+    <h2 id="history" class="his">History Of Golden Ratio</h2>
+
+    <p class="history">
+      a. The uses date to the ancient Egyptians and Greeks
+
+      To begin with, in one of the Seven Wonders, the Egyptian Great Pyramid constructed in 2580-2560 BC, the Golden
+      Ratio can be found: the ratio of the slant height of pyramid to half the base dimension is 1.61804, which is
+      extremely close to the Golden Ratio. Greeks also showed the advanced understanding of the Golden Ratio. Phidias
+      (500 BC – 432 BC), Plato (circa 428 BC – 347 BC), Euclid (365 BC – 300 BC), had put the ratio in their works. One
+      of the example could be the Parthenon, one of the most famous buildings in Greece, whose shortest base length and
+      the height form a Golden rectangle.<br>
+      b. The Fibonacci Series was discovered around 1200 AD
+
+      Leonardo Fibonacci, an Italian born in 1175 AD (2) discovered the unusual properties of the numerical series that
+      now bears his name. In 1202, with the reproduction of the rabbits, Fibonacci mentioned his sequence that had
+      already been worked out earlier in the ancient Hindu Pignala ‘s Chandahsastra around 200 BC. The limit of the
+      sequence produced by the quotients of the members of the well-known recursive Fibonacci sequence(Fn+2 = Fn+1+Fn,
+      F0=1, F1=1)is equal to the Golden Ratio, that is Φ<br>
+
+      c. The “Divine Proportion” in the 1500’s
+
+      During the Middle Age, this ratio was furtherly developed. Leonardo Da Vinci explored the human body involving in
+      the ratios of the lengths of various body parts. He called this ratio the "divine proportion" and featured it in
+      many of his paintings. This can be seen in the painting “The Last Supper”, from the dimensions of the table at
+      which Christ and the disciples sat to the proportions of the walls and windows in the background. Johannes Kepler
+      (1571-1630), German mathematician, astronomer, and astrologer, also made mention of the “Divine Proportion”.<br>
+
+      d. The “Golden Ratio” was coined in the 1800’s and the symbol “ ("phi")” in the 20th century
+
+      The term "golden section" (in German, goldener Schnitt or der goldene Schnitt) seems to first have been used by
+      Martin Ohm in the 1835 2nd edition of his textbook Die Reine Elementar-Mathematik (Livio 2002, p. 6). The first
+      known use of this term in English is in James Sulley's 1875 article on aesthetics in the 9th edition of the
+      Encyclopedia Britannica. The symbol ("phi") was apparently first used by American mathematician Mark Barr at the
+      beginning of the 20th century in commemoration of the Greek sculptor Phidias (ca. 490-430 BC), who a number of art
+      historians claim made extensive use of the golden ratio in his works (Livio 2002, pp. 5-6), as well as to
+      commemorate Fibonacc, whose name’s first letter “F” is equivalent to Greek “Phi”.<br>
+
+
+    </p>
+
+    <!-- START THE FEATURETTES -->
+    
+    <div class="examples">
+     
+      <hr class="featurette-divider">
+      <h2 id="head2">Few Examples of Golden Ratio</h2>
+
+      <div class="row featurette example1" style="
+      margin-top: 60px;
+  ">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your
+              mind.</span>
+          </h2>
+          <p class="lead" id="face"> The Human Face and the Golden Ratio
+            The human face is based on Phi and Golden Ratio proportions.
+            The human face abounds with examples of the Golden Ratio, also known as the Golden Section or Divine
+            Proportion. We’ll use a succession of golden ratios to create a golden ruler to understand design in the
+            face:You are here: The Human Face and the Golden Ratio
+            The Human Face and the Golden Ratio
+            The human face is based on Phi and Golden Ratio proportions.
+            The human face abounds with examples of the Golden Ratio, also known as the Golden Section or Divine
+            Proportion. We’ll use a succession of golden ratios to create a golden ruler to understand design in the
+            face:
+            Golden Ruler Building Blocks based on phi, the golden ratio, of each dimension
+
+            "The Golden Ruler" a Golden Ratio Measuring Stick based on Phi by Gary Meisner
+
+            The head forms a golden rectangle with the eyes at its midpoint. The mouth and nose are each placed at
+            golden sections of the distance between the eyes and the bottom of the chin. The beauty unfolds as you look
+            further.</p>
+        </div>
+        <div class="col-md-5">
+
+          <img src="./css/golden-ratioface.jpg" class="rounded float-right" alt="...">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette example2" style="
+      margin-top: 60px;
+  ">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">2. Golden Ratio in Nature<span class="text-muted">See for yourself.</span>
+          </h2>
+          <p class="lead" id="flower">The head of a flower is also subject to Fibonaccian processes. Typically, seeds are produced
+            at the center, and then migrate towards the outside to fill all the space. Sunflowers provide a great
+            example of these spiraling patterns.In some cases, the seed heads are so tightly packed that total number
+            can get quite high — as many as 144 or more. And when counting these spirals, the total tends to match a
+            Fibonacci number. Interestingly, a highly irrational number is required to optimize filling (namely one that
+            will not be well represented by a fraction). Phi fits the bill rather nicely.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+
+          <img src="./css/18f8es0jo57zwjpg.jpg" class="rounded float-left" alt="...">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette example3" style="
+      margin-top: 60px;
+  ">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Golden Ratio in Architecture <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead" id="pyramid">The Great Pyramid of Giza built around 2560 BC is one of the earliest examples of the use of
+            the golden ratio. The length of each side of the base is 756 feet, and the height is 481 feet. So, we can
+            find that the ratio of the vase to height is 756/481=1.5717.</p>
+        </div>
+        <div class="col-md-5">
+
+          <img src="./css/pyramid.png" class="rounded float-right" alt="...">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette example4" style="
+      margin-top: 60px;
+  ">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">The Golden Ratio in Art <span class="text-muted">See for yourself.</span>
+          </h2>
+          <p class="lead" id="mona">There are many ways artists have used the golden ratio in art; using the golden rectangle
+            itself to determine the composition of the artwork, using the path of the spiral in the golden rectangle,
+            and even placing important subject matter at measured points inside the rectangle.
+            The Golden Ratio Art in Painting
+            Leonardo da Vinci
+            Probably the most famous artist to put it to use is Leonardo da Vinci. Da Vinci illustrated a book written
+            by Luca Pacioli in the late 15th century all about the Divine Proportion.
+          </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+
+          <img src="./css/golden-ratio-in-art-2.jpg" class="rounded float-left" alt="...">
+        </div>
+      </div>
+
+
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+    </div>
+
+    <!-- uses -->
+
+    <h2 id="head3">Uses of Golden Ratio</h2>
+
+<div class="uses">
+    <div class="row row-cols-1 row-cols-md-2 ">
+      <div class="col mb-4">
+        <div class="card card1">
+          <img src="./css/1200-148171459-romanian-cauliflower.jpg" class="card-img-top banner1" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fruits and Vegetables</h5>
+            <p class="card-text">Spiraling patterns of seed heads The same pattern is observed in the case of fractal-like fruits and vegetables. The most common examples are pineapple, red cabbage, artichokes, and Romanian cauliflower (image). In these fruits and vegetables, it is easy to visualize the spiral patterns along their surface.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card card2">
+          <img src="./css/1200-465100783-starfish-pentagon.jpg" class="card-img-top banner2" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Animal Bodies</h5>
+            <p class="card-text">Animals show a wide range of body structures. Despite this vast range, they still exhibit the divine proportion in various parts of their bodies.<br> Some examples include:<br>
+
+              ► Dolphins: Dimensions (length:breadth) of eyes, fins, as well as tail section.<br>
+              <a>Read More..</a>
+              
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card card3">
+          <img src="./css/1200-467331275-bees-in-beehive.jpg" class="card-img-top bannner3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Reproduction Dynamics</h5>
+            <p class="card-text">In honeybee populations, the ratio of females to males is 1.618. Also, according to bee reproduction, fertilized eggs become female bees, whereas the unfertilized ones become males. Therefore. The females possess two parents, while the male only possesses one parent. Hence, if one were to examine the family tree of individual bees, the number of parents would progress from the newest to the oldest in a Fibonacci sequence.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card card4">
+          <img src="./css/1200-518311165-dna-molecule-illustration.jpg" class="card-img-top banner4" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">DNA</h5>
+            <p class="card-text">A DNA molecule is 34Å in length and 21Å in width. The ratio is approximately equal to the golden ratio. The same is true for the ratio of the two grooves of the helical DNA molecule, i.e., the major (21Å) and the minor (13Å) groove.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p>© 2017-2020 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+  </main>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="./function.js"></script>
+<script>
+  window.sr = ScrollReveal();
+        sr.reveal('.fixed-top ', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+        sr.reveal('.main ', {
+            duration: 2000,
+            origin: 'top',
+            delay: 500,
+            distance: '300px'
+        });
+        sr.reveal('.his ', {
+            duration: 2000,
+            origin: 'top',
+            delay: 500,
+            distance: '300px'
+        });
+        sr.reveal('.history ', {
+            duration: 2000,
+            origin: 'top',
+            delay: 500,
+            distance: '300px'
+        });
+
+
+
+        sr.reveal('.example1 ', {
+            duration: 2000,
+            origin: 'left',
+            delay: 500,
+            distance: '300px'
+        });
+        sr.reveal('.example2 ', {
+            duration: 2000,
+            origin: 'right',
+            delay: 500,
+            distance: '300px'
+        });
+        sr.reveal('.example3 ', {
+            duration: 2000,
+            origin: 'left',
+            delay: 500,
+            distance: '300px'
+        });
+        sr.reveal('.example4 ', {
+            duration: 2000,
+            origin: 'right',
+            delay: 500,
+            distance: '300px'
+        });
+        sr.reveal('.card1 ', {
+            duration: 2000,
+            origin: 'left',
+            delay: 500,
+            distance: '300px'
+        });
+        sr.reveal('.card2 ', {
+            duration: 2000,
+            origin: 'right',
+            delay: 500,
+            distance: '300px'
+        });
+        sr.reveal('.card3 ', {
+            duration: 2000,
+            origin: 'left',
+            delay: 500,
+            distance: '300px'
+        });
+        sr.reveal('.card4', {
+            duration: 2000,
+            origin: 'right',
+            delay: 500,
+            distance: '300px'
+        });
+
+
+
+
+</script>
+</html>
